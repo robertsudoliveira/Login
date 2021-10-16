@@ -31,13 +31,16 @@ h1{
   justify-content: space-around;  
   align-items: center;
   margin-top: 100px;
+  margin-left: 160px;
+  margin-right: 160px;
 
 }
 form{
   padding: 25px;
   border: 1px solid #D4276F;
   height: 430px;
-  
+   box-shadow: 1px 1px 10px  #D4276F;
+   
 }
 
 
@@ -90,10 +93,28 @@ a{
 
   
 }
-a:hover{
-  color:  #473BC7
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  
 }
 
+
+a:hover{
+  color: #D4276F;
+} 
+
+
+input[type="submit"]:hover{
+  background-color: #551A8B;
+}
+.conta{
+  padding: 5px;
+    margin-left: 15px;
+}
+ 
 
 
 @media (max-width:600px){
