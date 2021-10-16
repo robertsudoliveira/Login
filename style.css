@@ -112,14 +112,17 @@ input[type="submit"]:hover{
 }
 .conta{
   padding: 5px;
-    margin-left: 15px;
+  margin-left: 15px;
 }
  
 
 
-@media (max-width:600px){
+@media (max-width:800px){
 
   .box {
-    width: 400px;
+    flex-direction: column;
+  }
+  .box2{
+  margin-top: 40px  ;
   }
 }
