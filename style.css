@@ -128,7 +128,7 @@ input[type="submit"]:hover{
 }
 @media (max-width:420px){
 .box{
-  width: 280px;
+  width: 260px;
   margin: 30px auto;
   
 }
