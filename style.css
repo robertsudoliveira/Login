@@ -1,6 +1,5 @@
 
 *{
-
   margin:0;
   padding: 0;
   box-sizing: border-box;
@@ -27,15 +26,20 @@ h1{
 }
 
 .box {
- 
- 
+  
   display: flex;
-  justify-content: center;  
+  justify-content: space-around;  
   align-items: center;
   margin-top: 150px;
  
 
 }
+form{
+  padding: 25px;
+  border: 1px solid #D4276F;
+  
+}
+
 
 #senha{
   position: relative;
