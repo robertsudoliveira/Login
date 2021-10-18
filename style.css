@@ -25,32 +25,42 @@ h1{
 
 
 }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
 
 .box {
   display: flex;
-  justify-content: space-around;  
+  /* justify-content: space-around;   */
   align-items: center;
-  margin-top: 100px;
-  margin-left: 270px;
-  margin-right: 270px;
+  justify-content: center;
+
+ 
+ 
+
+}
+.box2{
+  margin-left: 40px;
+
+
+
 
 }
 form{
   padding: 25px;
   border: 1px solid #D4276F;
   height: 430px;
-   box-shadow: 1px 1px 10px  #D4276F;
+  box-shadow: 1px 1px 10px  #D4276F;
+  
    
 }
 
-
-#email{
+.label_input{
   position:relative;
-}
-
-#senha{
-  position: relative;
-
 }
 
 svg{
@@ -124,7 +134,8 @@ input[type="submit"]:hover{
     flex-direction: column;
   }
   .box2{
-  margin-top: 40px  ;
+  margin-top: 40px;
+  margin-left: 0;
   }
 }
 @media (max-width:420px){
