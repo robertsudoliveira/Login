@@ -35,19 +35,12 @@ body{
 
 .box {
   display: flex;
-  /* justify-content: space-around;   */
   align-items: center;
   justify-content: center;
-
- 
- 
 
 }
 .box2{
   margin-left: 40px;
-
-
-
 
 }
 form{
@@ -56,7 +49,6 @@ form{
   height: 430px;
   box-shadow: 1px 1px 10px  #D4276F;
   
-   
 }
 
 .label_input{
